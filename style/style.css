@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #1C2220;
+}
+
+
+header {
+	display: flex;
+	height: 400px;
+	background: linear-gradient(to bottom, transparent, #1C2220),
+    url("../images/wp5208001.jpg");
+}
+
+input {
+	width: 600px;
+	padding: 5px;
+	border: solid #4B4747 2px;
+	border-radius: 15px;
+}
+
+button {
+	padding: 5px;
+	border-radius: 20px;
+	border: solid #4B4747 2px;
+	background-color: transparent;
+	color: antiquewhite;
+	width: 100px;
+	transition: 300ms;
+}
+
+button:hover {
+	background-color: #4B4747;
+}
+
+button:active {
+	transform: scale(.95);
+}
+
+select {
+	padding: 5px;
+	border-radius: 20px;
+	width: 150px;
+	border: solid #4B4747 2px;
+	background-color: transparent;
+	color: antiquewhite;
+}
+
+a {
+	display: block;
+	color: antiquewhite;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #BCB18F;
+}
+
+hr {
+	width: 180px;
+	margin: 10px auto;
+	color: #4B4747;
+}
+
+
+
+#search-button {
+	margin-left: 5px;
+}
+
+
+.clock {
+	padding-right: 100px;
+	margin: 20px 0px 20px auto;
+	color: antiquewhite;
+}
+
+.mid-container {
+	display: flex;
+	margin: 200px 20px 20px 20px;
+	justify-content: center;
+}
+
+.link-container {
+	justify-content: center;
+	display: flex;
+	margin: 20px 20px;
+	padding: 10px;
+}
+
+.link-box {
+	margin: 10px;
+	padding: 10px;
+	width: 200px;
+	box-shadow: 5px 5px 15px black;
+	border: solid #4B4747 2px;
+	border-radius: 10px;
+	transition: 300ms;
+	color: antiquewhite;
+}
+
+.link-box:hover {
+	transform: scale(1.05);
+}
+
+.center-text {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
